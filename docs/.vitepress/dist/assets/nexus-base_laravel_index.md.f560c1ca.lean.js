@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,b as s}from"./app.b386aba9.js";const x=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"nexus-base/laravel/index.md"}'),n={name:"nexus-base/laravel/index.md"},o=s("p",null,"asdasd",-1),r=[o];function c(d,_,i,l,p,m){return t(),a("div",null,r)}const f=e(n,[["render",c]]);export{x as __pageData,f as default};

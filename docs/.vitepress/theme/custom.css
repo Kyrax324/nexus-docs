@@ -1,4 +1,15 @@
 :root {
-	--vp-c-brand: #3498db;
-	--vp-c-brand-light: #3498db;
+	--c-primary-light: #3498db;
+	--c-secondary-light: #26EFEF;
+	--c-tertiary-light: #DB34AD;
+
+	--vp-c-brand: var(--c-primary-light);
+	--vp-c-brand-light: var(--c-primary-light);
+	--vp-button-brand-hover-bg: var(--c-primary-light);
+	--vp-button-brand-hover-border: var(--c-primary-light);
+
+	--vp-home-hero-name-color: transparent;
+	--vp-home-hero-name-background: -webkit-linear-gradient(180deg,
+			var(--c-tertiary-light) 26.56%,
+			var(--c-secondary-light) 100%);
 }

@@ -23,7 +23,6 @@ Standardization is important in software companies for several reasons:
 
 ## What is inside the Ecosystem?
 
-- Nexus Base
-- [Standardization Checklist] standardization & best practices
-- packages
+- [Nexus Base](/nexus-base/) - Template
+- [Nexus Book](/nexus-book/) - Standardization & Best Practices
 
