@@ -23,6 +23,7 @@
 
 ### route
 - subdomain
+- named route
 
 ### app config
 - timezone
@@ -38,15 +39,15 @@
 - asset-file
 - image-upload handler
 
-### keep `.env,example` up to date
+<!-- ### keep `.env,example` up to date -->
+<!-- 
+### keep migration alive -->
 
-### keep migration alive
+<!-- ### use `env()` only in config files -->
 
-### use `env()` only in config files
+<!-- ### aware with lazy-loading -->
 
-### aware with lazy-loading
-
-### `Model`
+<!-- ### `Model`
 - stub | categorize methods
 - avoid using whereX magic method eg: where
 - avoid using scope
@@ -54,19 +55,19 @@
 - avoid using with = []
 - relationship method naming singular/plural
 - trait
-	- firstOrThrow()
+	- firstOrThrow() -->
 
-### `Controller`
+<!-- ### `Controller`
 - method that relevant in route
 
 ### api response
 
-### `JsonResource`
+### `JsonResource` -->
 
-### overwatch panel
+<!-- ### overwatch panel
 - Telescope
 - Hubblescope
-- Swagger (in progress)
+- Swagger (in progress) -->
 
 ### seeders
 

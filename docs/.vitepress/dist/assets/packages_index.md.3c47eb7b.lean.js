@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as s,a as t}from"./app.b386aba9.js";const m=JSON.parse('{"title":"Packages","description":"","frontmatter":{},"headers":[],"relativePath":"packages/index.md"}'),n={name:"packages/index.md"},c=t("",2),o=[c];function i(p,l,r,d,_,h){return s(),e("div",null,o)}const f=a(n,[["render",i]]);export{m as __pageData,f as default};

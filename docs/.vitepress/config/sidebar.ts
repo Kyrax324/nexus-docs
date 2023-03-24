@@ -5,7 +5,6 @@ export const sidebar = {
 			collapsible: true,
 			items: [
 				{ text: "What is Nexus?", link: "/about/" },
-				{ text: "Project Flow", link: "/about/project-flow" },
 			],
 		}
 	],
@@ -39,6 +38,17 @@ export const sidebar = {
 			],
 		}
 	],
+	"/nexus-book/": [
+		{
+			text: "Nexus Book",
+			collapsible: false,
+			items: [
+				{ text: "About", link: "/nexus-book/" },
+				{ text: "General Practices", link: "/nexus-book/general-practices" },
+				{ text: "Project Flow", link: "/nexus-book/project-flow" },
+			],
+		}
+	],
 	"/nexus-book/git/": [
 		{
 			// text: "Database",
@@ -54,6 +64,35 @@ export const sidebar = {
 			collapsible: false,
 			items: [
 				{ text: "Server", link: "/nexus-book/server/" },
+			],
+		}
+	],
+	"/nexus-book/laravel/": [
+		{
+			text: "Laravel",
+			collapsible: false,
+			items: [
+				{ text: "Ideology", link: "/nexus-book/laravel/" },
+				{ text: "Best Practice", link: "/nexus-book/laravel/best-practice" },
+			],
+		},
+		{
+			text: "Topic",
+			collapsible: false,
+			items: [
+				{ text: "Overwatch Panel", link: "/nexus-book/laravel/topic-1" },
+				{ text: "Config & Env", link: "/nexus-book/laravel/topic-1" },
+				{ text: "Database & Migration", link: "/nexus-book/laravel/topic-1" },
+				{ text: "Seeder", link: "/nexus-book/laravel/topic-1" },
+				{ text: "File System & Storage", link: "/nexus-book/laravel/topic-1" },
+				{ text: "HTTP Request (API)", link: "/nexus-book/laravel/topic-1" },
+			],
+		},
+		{
+			text: "Cases",
+			collapsible: false,
+			items: [
+				{ text: "Mobile App Development Flow", link: "/nexus-book/laravel/case-1" },
 			],
 		}
 	],

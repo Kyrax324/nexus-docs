@@ -5,8 +5,9 @@
 
 	--vp-c-brand: var(--c-primary-light);
 	--vp-c-brand-light: var(--c-primary-light);
-	--vp-button-brand-hover-bg: var(--c-primary-light);
-	--vp-button-brand-hover-border: var(--c-primary-light);
+	--vp-c-brand-lighter: var(--c-primary-light);
+	--vp-c-brand-dark: var(--c-secondary-light);
+	--vp-c-brand-darker: var(--c-secondary-light);
 
 	--vp-home-hero-name-color: transparent;
 	--vp-home-hero-name-background: -webkit-linear-gradient(180deg,

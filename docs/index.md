@@ -12,7 +12,7 @@ hero:
     - theme: brand
       text: Get Started
       link: /about/
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+    # - theme: alt
+    #   text: View on GitHub
+    #   link: https://github.com/vuejs/vitepress
 ---

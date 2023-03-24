@@ -8,3 +8,7 @@ php artisan make:model MyModel -M
 ```
 
 ## 
+
+::: details
+This is a details block.
+:::

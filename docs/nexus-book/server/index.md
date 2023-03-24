@@ -1,54 +1,50 @@
 # Server Setup
 
-## Project Folders:
-
-### Example:
+## Project Directories Structure:
 
 ```
-`projects` folder:
-- `nexus-web` folder
-	- `production` folder
-	- `production-envoyer` folder
-	- `staging` folder
-- `nexus-pos` folder
-	- `production` folder
-	- `staging` folder
+projects
+├── project-A
+│   ├── production
+│   ├── production-envoyer
+│   └── staging
+└── project-B
+    ├── production
+	├── production-envoyer
+    └── staging
 ```
 
-## Project detail
+## Subdomain
 
-
+```js
+`${project_site_name}-${site_type}-${environment}`
 ```
-*# production:*
-[web] https://www.test.com
-[admin] https://admin.test.com/login
-*may login and change password
 
-- for client: admin@test.com | test@1234
-- for etc : admin@etctech.com.my | admin@1234
+Project Site Name
+Site Type Name
+Environment Name
 
-*# staging:*
-[web] https://staging.test.com
-[admin] https://staging-admin.test.com/login
 
-- for client: staging-admin@test.com | 1111aaaa
-- for etc : admin@etctech.com.my | 1111aaaa
+## Database
 
-*# webmail:*
-https://webmail.test.com
-[production] admin@test.com | <password>
-[staging] staging-admin@gmtractorparts.com | <password>
-=> email account for client, used to receive contact-us enquiry
-```
+naming
+
+## Email Account
 
 
 ## CronJob
 
 ```sh
-cd <project_pathproject_path> && php artisan schedule:run > cron-schedule.txt 2>&1
+cd <project_path> && php artisan schedule:run > cron-schedule.txt 2>&1
 
 
 # example
 cd gm-tractor-web/production-envoyer/current && php artisan schedule:run > cron-schedule.txt 2>&1
 cd gm-tractor-web/staging && php artisan schedule:run > cron-schedule.txt 2>&1
+```
+
+### PHP version
+
+```
+/bin/php-ea74/...
 ```
