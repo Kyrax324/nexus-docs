@@ -5,7 +5,6 @@ import { UserConfig } from 'vitepress'
 const config: UserConfig = {
 	title: 'Nexus Ecosystem',
 	description: 'Documentation for Nexus',
-	cleanUrls: true,
 	appearance: "dark",
 	themeConfig: {
 		head: [

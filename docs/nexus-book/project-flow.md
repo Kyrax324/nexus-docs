@@ -6,19 +6,26 @@ const aa = "# AAA"
 
 # Project Flow
 
-## Development
+## Project Setup
 
+1. `Main Developer` create project by `forking` the nexus repo.
+
+## Development
 1. Clone project repo
-1. Setup project, see:
-	1. Create `.env` file by copy from `.env.example`
+1. Setup project by:
+	1. Create `.env` file by copy from `.env.template`
 	- [Setup Laravel](/)
-1. Create dev branch. eg: `dev/module/index`, see [Git Branch Guideline](/nexus-book/git/)
+1. Create dev branch. `dev/$module`, see [Git Branch Guideline](/nexus-book/git/).
+- example:
+	- `dev/product`
+	- `dev/banner`
 1. Project's `Git Master` to merge & cross-check relative dev branch into `Main`
 1. prepare init data
 
 ## Deployment
 
-1. create release branch eg: `release/staging`, `release/production`
+1. create release branch 
+	- example: `release/staging`, `release/production`
 1. insert initSeeder
 1. setup server
 1. share out server details

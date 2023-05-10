@@ -21,4 +21,5 @@ public function redeemStatus() : string
 ## Be careful on Global & Magic
 
 ## Be aware on API response changes
-- when 
+
+- as most of the frontend development language are strong type, changes of types or object key naming will cause error in frontend application.

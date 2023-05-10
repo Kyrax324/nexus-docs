@@ -5,11 +5,14 @@
 ```sh
 
 # install node_modules
-npm i 
+npm i
 
 # for dev
 npm run docs:dev
+|
+| # to expose Network
+|->	npm run docs:dev -- --host
 
 # for build
-npm run docs:build 
+npm run docs:build
 ```
